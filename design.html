@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <!-- Create a title for site-->
+        <title>Design - Senior Project</title>
+        <!-- Link to the CSS file -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Add character processing -->
+        <meta charset="UTF-8">
+        <!-- Adjusting the size of the page based off of the size of the device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Adding Bootstrap from the package.json -->
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Adding Bootstraps's JS attributes -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Create a nav bar at the top of a page -->
+        <nav class="navbar nav nav-pills navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+                <!-- Creates the home text -->
+                <a class="navbar-brand active" aria-current="page" href="index.html" style="text-decoration: underline 4px;">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Start of secondary buttons -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="programming.html">Development</a>
+                        <a class="nav-item nav-link" href="marketing.html">Marketing</a>
+                        <a class="nav-item nav-link" href="design.html">Design</a>
+                    </div>
+                </div>  
+            <div class="float-end">
+                <a class="nav-link" href="#"><button type="button" class="feedback">Feedback</button></a> 
+            </div>            
+        </div>
+    </nav>
+
+    <h1 class="main_title">Design</h1>
+
+    <div class="accordion" id="desAccordion">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Color pallette
+                </button>
+            </div>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="desAccordion">
+                <div class="accordion-body">
+                    <p class="body"> 
+                        Choosing a color palette for a website is crucial. Even though it may just seem that it’s only adjusting the looks, it goes deeper than that. An important ruleset to follow is the Color Balancing Formula. This uses 1-3 main colors as a theme, 1 pop color to bring attention to a specific area of the site, and 1-2 neutral colors for text and backgrounds of certain elements. For my website, the main colors are shades of purple and pink.  I had a vision of using a darker main color theme because it’s more pleasant on the eyes, and doesn’t over-excite the content of the page. Additionally, not many other sites to my recent memory have used purple, aside from Yahoo. Plus, it’s my favorite color so it did get a bit of a boost from that. For my pop-color, I wanted to apply it to the feedback form link in the navbar. A main use of a pop color is for a call-to-action, seen in things like “Sign in” or “Subscribe to our newsletter!”. Finding colors that aren’t darker colors that work well with purple other than white felt pretty challenging. I thought white would be too boring, but I ended up going of a gradient from yellow to white, giving off some kind of gold-ish effect. It stands out without looking too out of place or ugly. With that, and using grey and white as my neutral colors, the palette was assigned.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Consistency
+                    </button>
+                </div>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="desAccordion">
+                    <div class="accordion-body">
+                        <p class="body">
+                            Consistency is one very important thing. It’s up to the developer on whether or not they wish to have a site that fits a lighter or darker theme, or even add customizability, but its just as important to keep it like that throughout the site. It can be pretty disorienting if things aren’t looking the same, even getting viewers as far as questioning if they’re still on the original site. Additionally, fonts, sizes, borders, and other constants throughout the site are important to stay that way. There are exceptions, but normally that’s because of the purpose of subsites. (such as Amazon’s primary white with accented gray, to the darkish-blue of Amazon Prime Video). 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Engagement
+                    </button>
+                </div>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="desAccordion">
+                    <div class="accordion-body">
+                        <p class="body">
+                            I wanted to use this site as a demonstration of what I learned. With that being said, I wanted to add features that stimulate the viewer outside of reading. One was the feedback sheet. Not only does that give the user the option to do something other than reading the info tabs, but it helps me receive information about what I did well in, and what I can improve on. I also added the accordion elements. That’s what you click on in each page to open an area that has the elements inside. It leaves room for other things like images or additional text, and is a sleeker design.
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <h1>NEEDS EDITS</h1>
+
+    </body>
+</html>

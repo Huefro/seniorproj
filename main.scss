@@ -1,0 +1,166 @@
+// Import Bootstrap styles
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+// Attempt at main-screen Jumbotron
+/*
+.jumbo{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border: 1px solid black; // Fix color
+    border-radius: 10px;
+    align-items: center;
+}
+
+[data-bs-theme='dark'] .carousel{
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+}
+
+[data-bs-theme='dark'] .carousel-inner{
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    padding: auto;
+    align-items: center;
+}
+
+[data-bs-theme='dark'] .carousel-item{
+    max-width: 100px;
+    max-height: 100px;
+    margin: auto;
+}
+*/
+
+// Custom styles
+h1.main_title, h2.main_title{
+    text-align: center;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+h2.sub_title{
+    font-family: 'Helvetica';
+    text-align: center;
+}
+
+p.body {
+    text-indent: 2.5em;
+    font-family: 'Helvetica';
+    font-size: larger;
+}
+
+
+img.htmlImg{
+    max-width: 400px;
+    max-height: 300px;
+    clear: left;
+    float: right;
+    display: inline;
+    margin-left: 20px;
+    margin-right: -30px;
+    margin-bottom: -100px;
+}
+
+img.cssImg{
+    max-width: 600px;
+    max-height: 250px;
+    clear: left;
+    float: right;
+    display: inline;
+    margin-left: 20px;
+    margin-right: -30px;
+    margin-bottom: -50px;
+}
+
+.addOnElement .body{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+// Time to get silly for a dumb effect!!!!
+
+
+.feedback{
+    max-width: 100% auto;
+    max-height: 100% auto;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: larger;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-image: linear-gradient(45deg, #f3f776, #ffffffae);
+}
+
+.main-form{
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 1rem;
+    font-weight: bold;
+    container: inline;
+    justify-content: center;
+}
+
+.main-label{
+    font-family: 'Helvetica';
+    font-size: 1rem;
+    font-style: italic;
+    container: inline;
+    text-align: center;
+}
+
+
+// BOOTSTRAP
+
+
+// Override Bootstrap's navbar styles
+[data-bs-theme='dark'] .navbar {
+    position: sticky;
+    top: 0;
+    background-color: #3e1054 !important;
+    border-radius: 50px;
+    border-bottom: #2d08394d 5px solid !important;
+    margin-bottom: 25px;
+    z-index: 10;
+}
+[data-bs-theme='dark'] .nav-pills .nav-link.active{
+    background-color: #a13ed2 !important;
+    color: #ffffff !important;
+
+}
+
+// Override Bootstrap's dark theme body background
+[data-bs-theme='dark'] body {
+    background-color: #2d0839;
+}
+
+// Override Bootstrap's dark theme accordion properties
+[data-bs-theme='dark'] .accordion-button, [data-bs-theme='dark'] .accordion-item::after {
+    background-color: #be22f239 !important;
+    color: #ffffff !important;
+}
+[data-bs-theme='dark'] .accordion-item {
+    background-color: #6f128e33 !important;
+    color: #ffffff !important;
+}
+[data-bs-theme='dark'] .accordion-button:hover{
+    background-color: #c359e79e !important;
+    color: #ffffff !important;
+}
+[data-bs-theme='dark'] .accordion-body{
+    background-color: #3a094a39;
+}
+
+[data-bs-theme='dark'] .accordion-item#marketAccordion {
+    width: 47%;
+}
