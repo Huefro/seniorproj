@@ -11923,9 +11923,9 @@ img.cssImg {
   text-align: left;
 }
 
-.image-head {
+.image-head{
   width: 75vw;
-  max-height: 25vh;
+  max-height: 25vh; 
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -11936,7 +11936,7 @@ img.cssImg {
   padding: auto;
 }
 
-.container {
+.container-head1{
   position: relative;
 }
 
