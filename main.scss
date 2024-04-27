@@ -85,10 +85,16 @@ img.cssImg{
 }
 
 .image-head{
-    width: 80%;
-    border-radius: 5%;
-    opacity: 0.3;
-    height: 25%;
+    width: 75vw; // 100% view height
+    max-height: 25vh; // 100% view height
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    opacity: 0.6;
+    filter: blur(2px);
+    margin-bottom: 30px;
+    padding: auto;
 }
 
 .container{
