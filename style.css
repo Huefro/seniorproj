@@ -11923,23 +11923,6 @@ img.cssImg {
   text-align: left;
 }
 
-.image-head{
-  width: 75vw;
-  max-height: 25vh; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  opacity: 0.6;
-  filter: blur(2px);
-  margin-bottom: 30px;
-  padding: auto;
-}
-
-.container-head1{
-  position: relative;
-}
-
 .feedback {
   max-width: 100% auto;
   max-height: 100% auto;
