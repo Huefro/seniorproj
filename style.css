@@ -11880,8 +11880,8 @@ textarea.form-control-lg {
 }
 */
 h1.main_title, .main_title.h1 {
-  text-align: center;
   font-family: "Helvetica";
+  text-align: center;
   font-weight: bold;
 }
 
@@ -11891,8 +11891,8 @@ h2.sub_title, .sub_title.h2 {
 }
 
 p.body {
-  text-indent: 2.5em;
   font-family: "Helvetica";
+  text-indent: 2.5em;
   font-size: larger;
 }
 
