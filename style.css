@@ -11892,7 +11892,7 @@ h2.sub_title, .sub_title.h2 {
 
 p.body {
   text-indent: 2.5em;
-  font-family: Helvetica, sans-serif;
+  font-family: "Helvetica";
   font-size: larger;
 }
 
