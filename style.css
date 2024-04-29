@@ -11844,6 +11844,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+@font-face{
+  font-family: "Renogare";
+  src: url(./font/renogare-regular-webfont.woff2);
+}
+
 /*
 .jumbo{
     margin-left: 2%;
@@ -11880,18 +11886,18 @@ textarea.form-control-lg {
 */
 h1.main_title, .main_title.h1, h2.main_title, .main_title.h2 {
   text-align: center;
-  font-family: "Helvetica";
+  font-family: "Renogare";
   font-weight: bold;
 }
 
 h2.sub_title, .sub_title.h2 {
-  font-family: "Helvetica";
+  font-family: "Renogare";
   text-align: center;
 }
 
 p.body {
   text-indent: 2.5em;
-  font-family: "Helvetica";
+  font-family: "Renogare";
   font-size: larger;
 }
 
