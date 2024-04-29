@@ -11879,18 +11879,21 @@ textarea.form-control-lg {
     margin: auto;
 }
 */
-h1.main_title, .main_title.h1 {
+h1.main_title, h2.main_title {
   text-align: center;
   font-weight: bold;
+  font-family: "Helvetica";
 }
 
 h2.sub_title, .sub_title.h2 {
   text-align: center;
+  font-family: "Helvetica";
 }
 
 p.body {
   text-indent: 2.5em;
   font-size: larger;
+  font-family: "Helvetica";
 }
 
 img.htmlImg {
