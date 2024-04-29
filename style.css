@@ -11879,7 +11879,7 @@ textarea.form-control-lg {
     margin: auto;
 }
 */
-h1.main_title, .main_title.h1, h2.main_title, .main_title.h2 {
+h1.main_title, .main_title.h1 {
   text-align: center;
   font-family: "Times New Roman", serif;
   font-weight: bold;
