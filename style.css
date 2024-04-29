@@ -11881,12 +11881,12 @@ textarea.form-control-lg {
 */
 h1.main_title, .main_title.h1, h2.main_title, .main_title.h2 {
   text-align: center;
-  font-family: 'Visby Round CF';
+  font-family: 'VisbyCF', sans-serif;
   font-weight: bold;
 }
 
 h2.sub_title, .sub_title.h2 {
-  font-family: "Visby Round CF", sans-serif;
+  font-family: "VisbyCF", sans-serif;
   text-align: center;
 }
 
