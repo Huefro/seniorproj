@@ -11845,11 +11845,6 @@ textarea.form-control-lg {
   }
 }
 
-@font-face{
-  font-family: "Renogare";
-  src: url(3OF9_NEW.ttf) format('ttf');
-}
-
 /*
 .jumbo{
     margin-left: 2%;
@@ -11886,18 +11881,18 @@ textarea.form-control-lg {
 */
 h1.main_title, .main_title.h1, h2.main_title, .main_title.h2 {
   text-align: center;
-  font-family: "Renogare";
+  font-family: 'Visby Round CF';
   font-weight: bold;
 }
 
 h2.sub_title, .sub_title.h2 {
-  font-family: "Renogare";
+  font-family: "Visby Round CF";
   text-align: center;
 }
 
 p.body {
   text-indent: 2.5em;
-  font-family: "Renogare";
+  font-family: "Visby Round CF";
   font-size: larger;
 }
 
