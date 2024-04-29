@@ -11881,18 +11881,18 @@ textarea.form-control-lg {
 */
 h1.main_title, .main_title.h1 {
   text-align: center;
-  font-family: "Times New Roman", serif;
+  font-family: "Helvetica";
   font-weight: bold;
 }
 
 h2.sub_title, .sub_title.h2 {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica";
   text-align: center;
 }
 
 p.body {
   text-indent: 2.5em;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica";
   font-size: larger;
 }
 
