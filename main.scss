@@ -1,6 +1,11 @@
 // Import Bootstrap styles
 @import "./node_modules/bootstrap/scss/bootstrap";
 
+@font-face{
+    font-family: "Renogare";
+    src: url(renogare-regular-webfont.woff2);
+}
+
 // Attempt at main-screen Jumbotron
 /*
 .jumbo{
@@ -40,18 +45,18 @@
 // Custom styles
 h1.main_title, h2.main_title{
     text-align: center;
-    font-family: 'Helvetica';
+    font-family: 'Renogare';
     font-weight: bold;
 }
 
 h2.sub_title{
-    font-family: 'Helvetica';
+    font-family: 'Renogare';
     text-align: center;
 }
 
 p.body {
     text-indent: 2.5em;
-    font-family: 'Helvetica';
+    font-family: 'Renogare';
     font-size: larger;
 }
 
