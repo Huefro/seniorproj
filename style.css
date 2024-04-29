@@ -11882,7 +11882,7 @@ textarea.form-control-lg {
 h1.main_title, h2.main_title {
   text-align: center;
   font-weight: bold;
-  font-family: "Helvetica";
+  font-family: "Serif";
 }
 
 h2.sub_title, .sub_title.h2 {
@@ -11893,7 +11893,7 @@ h2.sub_title, .sub_title.h2 {
 p.body {
   text-indent: 2.5em;
   font-size: larger;
-  font-family: "Helvetica";
+  font-family: "Verdana";
 }
 
 img.htmlImg {
