@@ -11886,7 +11886,7 @@ h1.main_title, .main_title.h1, h2.main_title, .main_title.h2 {
 }
 
 h2.sub_title, .sub_title.h2 {
-  font-family: "Visby Round CF";
+  font-family: "Visby Round CF", sans-serif;
   text-align: center;
 }
 
