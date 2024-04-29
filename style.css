@@ -11886,13 +11886,13 @@ h1.main_title, .main_title.h1 {
 }
 
 h2.sub_title, .sub_title.h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica", sans-serif;
   text-align: center;
 }
 
 p.body {
   text-indent: 2.5em;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: larger;
 }
 
