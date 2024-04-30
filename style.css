@@ -11976,6 +11976,7 @@ button.main-submit{
   font-size: 1rem;
   font-weight: bold;
   border: none;
+  overflow: auto;
 }
 
 .main-textarea{
@@ -11983,25 +11984,12 @@ button.main-submit{
   font-size: 1rem;
   font-weight: bold;
   border: none;
+  overflow: auto;
 }
 
 button.main-submit:hover{
-  background-color: #00000000;
+  background-color: #4caf4f5d;
   border: 2px, solid, #4CAF50;
-}
-
-.main-text{
-  font-family: "Helvetica";
-  font-size: 1rem;
-  font-weight: bold;
-  overflow: auto;
-}
-
-.main-textarea{
-  font-family: "Helvetica";
-  font-size: 1rem;
-  font-weight: bold;
-  overflow: auto;
 }
 
 [data-bs-theme=dark] .navbar {
