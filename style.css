@@ -11973,18 +11973,16 @@ button.main-submit{
 
 .main-text{
   font-family: "Helvetica";
-  font-size: 1rem;
-  font-weight: bold;
   border: none;
   overflow: auto;
+  height: 15px;
 }
 
 .main-textarea{
   font-family: "Helvetica";
-  font-size: 1rem;
-  font-weight: bold;
   border: none;
   overflow: auto;
+  height: 100px;
 }
 
 button.main-submit:hover{
