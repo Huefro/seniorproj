@@ -11964,10 +11964,24 @@ button.main-submit{
   width: 100px;
   height: 50px;
   background-color: #4CAF50;
+  border: 0px, solid, #4CAF50;
   border-radius: 10px;
   padding: auto;
-  border: 0px, solid, #4CAF50;
   transition-duration: 0.4s;
+}
+
+.main-text{
+  font-family: "Helvetica";
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
+
+.main-textarea{
+  font-family: "Helvetica";
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
 }
 
 button.main-submit:hover{
