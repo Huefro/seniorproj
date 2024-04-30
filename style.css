@@ -11971,7 +11971,7 @@ button.main-submit{
 }
 
 button.main-submit:hover{
-  color: #00000000;
+  background-color: #00000000;
   border: 2px, solid, #4CAF50;
 }
 
