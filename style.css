@@ -11946,6 +11946,7 @@ img.cssImg {
   font-weight: bold;
   container: inline;
   justify-content: center;
+  overflow: auto;
 }
 
 .main-label {
@@ -11987,6 +11988,20 @@ button.main-submit{
 button.main-submit:hover{
   background-color: #00000000;
   border: 2px, solid, #4CAF50;
+}
+
+.main-text{
+  font-family: "Helvetica";
+  font-size: 1rem;
+  font-weight: bold;
+  overflow: auto;
+}
+
+.main-textarea{
+  font-family: "Helvetica";
+  font-size: 1rem;
+  font-weight: bold;
+  overflow: auto;
 }
 
 [data-bs-theme=dark] .navbar {
