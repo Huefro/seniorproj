@@ -11961,7 +11961,11 @@ img.cssImg {
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-image: linear-gradient(45deg, #1e2ba2, #2168b9);
+  width: 100px;
+  height: 50px;
+  background-color: #4CAF50;
+  border-radius: 10px;
+  padding: auto;
 }
 
 [data-bs-theme=dark] .navbar {
