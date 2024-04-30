@@ -11973,14 +11973,12 @@ button.main-submit{
 
 .main-text{
   font-family: "Helvetica";
-  border: none;
   overflow: auto;
   height: 30px;
 }
 
 .main-textarea{
   font-family: "Helvetica";
-  border: none;
   overflow: auto;
   height: 150px;
 }
