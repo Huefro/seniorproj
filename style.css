@@ -11956,7 +11956,7 @@ img.cssImg {
   text-align: center;
 }
 
-.main-submit{
+button.main-submit{
   font-family: "Helvetica";
   font-size: 1rem;
   font-weight: bold;
