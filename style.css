@@ -11975,14 +11975,14 @@ button.main-submit{
   font-family: "Helvetica";
   border: none;
   overflow: auto;
-  height: 15px;
+  height: 30px;
 }
 
 .main-textarea{
   font-family: "Helvetica";
   border: none;
   overflow: auto;
-  height: 100px;
+  height: 150px;
 }
 
 button.main-submit:hover{
