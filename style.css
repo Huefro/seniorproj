@@ -4505,7 +4505,7 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 80%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: 1rem;
   color: var(--bs-accordion-btn-color);
@@ -11904,7 +11904,7 @@ img.htmlImg {
   clear: left;
   float: right;
   display: inline;
-  margin-left: 20px;
+  margin-left: 35px;
   margin-right: -30px;
   margin-bottom: -100px;
 }
@@ -11915,7 +11915,7 @@ img.cssImg {
   clear: left;
   float: right;
   display: inline;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-right: -30px;
   margin-bottom: -50px;
 }
