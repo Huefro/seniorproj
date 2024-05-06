@@ -12032,4 +12032,15 @@ button.main-submit:hover{
   width: 47%;
 }
 
+footer{
+  background-color: #240931;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
