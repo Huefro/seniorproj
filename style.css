@@ -12045,37 +12045,5 @@ footer{
   border-radius: 5px;
 }
 
-.jumbo{
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: auto;
-  margin-bottom: auto;
-  text-align: center;
-  font-size: 2em;
-  font-weight: bold;
-  border: 1px solid black; 
-  border-radius: 10px;
-  align-items: center;
-}
-
-[data-bs-theme='dark'] .carousel{
-  max-width: 500px;
-  max-height: 500px;
-  margin: auto;
-}
-
-[data-bs-theme='dark'] .carousel-inner{
-  text-align: center;
-  max-width: 500px;
-  max-height: 500px;
-  padding: auto;
-  align-items: center;
-}
-
-[data-bs-theme='dark'] .carousel-item{
-  max-width: 100px;
-  max-height: 100px;
-  margin: auto;
-}
 
 /*# sourceMappingURL=style.css.map */
