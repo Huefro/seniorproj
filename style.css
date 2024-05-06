@@ -12034,10 +12034,12 @@ button.main-submit:hover{
 
 footer{
   background-color: #1f042b;
-  color: white;
+  color: lightgray;
+  font-style: italic;
   text-align: center;
+  font-size: smaller;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 25px;
   width: 100%;
   border-radius: 5px;
 }
