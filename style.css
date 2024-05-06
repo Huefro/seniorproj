@@ -12033,14 +12033,13 @@ button.main-submit:hover{
 }
 
 footer{
-  background-color: #240931;
+  background-color: #1f042b;
   color: white;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  margin-top: 10px;
   width: 100%;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
