@@ -12037,6 +12037,7 @@ footer{
   color: lightgray;
   font-style: italic;
   text-align: center;
+  align-content: center;
   font-size: smaller;
   padding: 10px;
   margin-top: 25px;
